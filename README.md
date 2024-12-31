@@ -63,8 +63,8 @@ src/ ├── Bishop.java ├── ChessBoard.java ├── ChessGame.java �
 ![alt text](image-1.png)
 
 ## 🌱 Future Enhancements
--**Add special moves like castling, en passant, and pawn promotion.**
--**Implement AI for single-player mode.**
--**Include a timer for moves.**
--**Save and load game states.**
--**Add multiplayer support with network programming.**
+- **Add special moves like castling, en passant, and pawn promotion.**
+- **Implement AI for single-player mode.**
+- **Include a timer for moves.**
+- **Save and load game states.**
+- **Add multiplayer support with network programming.**
