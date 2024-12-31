@@ -1,37 +1,31 @@
-Chess Game
-A fully functional chess game built in Java, utilizing object-oriented programming (OOP) principles to ensure clean, modular, and maintainable code.
+# ♟️ Chess Game
 
-Features
-Object-Oriented Design: The game is designed with OOP principles, including encapsulation, inheritance, polymorphism, and abstraction.
-Interactive GUI: A graphical user interface (GUI) built using Java Swing for a user-friendly experience.
-Chess Rules Enforcement: Implements all standard chess rules, including piece-specific movements, turn-based gameplay, and basic validations.
-Custom Player Classes: Separate classes for white and black players, encapsulating player-specific logic and attributes.
-Dynamic Chessboard: A dynamic chessboard that adjusts based on game state, implemented through dedicated board and piece classes.
-Extensibility: The modular structure makes it easy to add new features or make modifications.
-Technical Details
-Technologies Used
-Programming Language: Java
-GUI Framework: Java Swing
-Development Environment: IntelliJ IDEA
-OOP Principles Applied
-Encapsulation:
+A fully functional **Chess Game** developed in **Java**, showcasing the principles of **Object-Oriented Programming (OOP)**. This project implements clean, modular, and maintainable code with an interactive GUI for an engaging user experience.
 
-Each chess piece and player is represented by a class that encapsulates its attributes and behaviors.
-Classes are designed with clear responsibilities and private fields to protect data integrity.
-Inheritance:
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![OOP](https://img.shields.io/badge/OOP-Encapsulation%2C%20Polymorphism%2C%20Abstraction%2C%20Inheritance-blue?style=for-the-badge)
 
-Base Piece class with specific piece types (e.g., Pawn, King, Queen, etc.) extending it.
-Shared functionality is implemented in the base class, while specific behaviors are overridden in derived classes.
-Polymorphism:
+---
 
-Each piece class overrides a method for movement logic, allowing dynamic behavior based on the piece type.
-Simplifies the implementation of game logic by treating all pieces uniformly while allowing for unique behavior.
-Abstraction:
+## 🌟 Features
 
-Abstract classes and interfaces are used to define common functionality across different pieces and game components.
-Project Structure
-css
-Copy code
+- **Interactive GUI**: User-friendly interface built with **Java Swing**.
+- **Object-Oriented Design**:
+  - Encapsulation
+  - Polymorphism
+  - Inheritance
+  - Abstraction
+- **Chess Rules Enforcement**:
+  - Turn-based gameplay.
+  - Piece-specific movements.
+  - Legal move validations.
+- **Dynamic Chessboard**: Game state updates dynamically.
+- **Custom Player Classes**: Logic for White and Black players encapsulated in separate classes.
+- **Extensibility**: Designed to accommodate future enhancements.
+
+---
+
+## 📂 Project Structure
 src/
 ├── Bishop.java
 ├── ChessBoard.java
@@ -46,23 +40,45 @@ src/
 ├── Piece.java
 .gitignore
 README.md
-How to Run
-Clone the repository:
-bash
-Copy code
-git clone <repository-url>
-Open the project in your preferred Java IDE (e.g., IntelliJ IDEA or Eclipse).
-Compile the code.
-Run the ChessGame class.
-Screenshots
-![image](https://github.com/user-attachments/assets/5a26407f-7259-40a7-8b44-a0f10f87b70e)
 
 
-Future Enhancements
-Add support for special moves like castling and en passant.
-Implement a timer for turn-based gameplay.
-Add AI to allow single-player mode.
-Save and load game states.
-Multiplayer support through network programming.
-License
-This project is open-source and available under the MIT License.
+---
+
+## 🛠️ Technologies Used
+
+- **Programming Language**: Java
+- **GUI Framework**: Java Swing
+- **Development Environment**: IntelliJ IDEA
+
+---
+
+## 🧠 OOP Principles Applied
+
+- **Encapsulation**: Each class encapsulates attributes and behaviors.
+- **Inheritance**: Base `Piece` class extended by individual pieces (e.g., `King`, `Queen`, `Pawn`).
+- **Polymorphism**: Overriding methods for piece-specific movement logic.
+- **Abstraction**: Abstract classes define shared behaviors across components.
+
+---
+
+## 🚀 How to Run
+
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository-url>
+2. **Open the Project:** : Open the project in your preferred IDE (e.g., IntelliJ IDEA or Eclipse).
+
+3. **Compile and Run:** : Compile the code and run the ChessGame class to start the game.
+
+
+---
+
+## 📸 Screenshots
+![alt text](image.png)
+
+## 🌱 Future Enhancements
+-Add special moves like castling, en passant, and pawn promotion.
+-Implement AI for single-player mode.
+-Include a timer for moves.
+-Save and load game states.
+-Add multiplayer support with network programming.
