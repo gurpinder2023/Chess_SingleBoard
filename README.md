@@ -26,21 +26,7 @@ A fully functional **Chess Game** developed in **Java**, showcasing the principl
 ---
 
 ## 📂 Project Structure
-src/
-├── Bishop.java
-├── ChessBoard.java
-├── ChessGame.java
-├── GUIManager.java
-├── King.java
-├── Knight.java
-├── Pawn.java
-├── Player.java
-├── Queen.java
-├── Rook.java
-├── Piece.java
-.gitignore
-README.md
-
+src/ ├── Bishop.java ├── ChessBoard.java ├── ChessGame.java ├── GUIManager.java ├── King.java ├── Knight.java ├── Pawn.java ├── Player.java ├── Queen.java ├── Rook.java ├── Piece.java .gitignore README.md
 
 ---
 
@@ -74,11 +60,11 @@ README.md
 ---
 
 ## 📸 Screenshots
-![alt text](image.png)
+![alt text](image-1.png)
 
 ## 🌱 Future Enhancements
--Add special moves like castling, en passant, and pawn promotion.
--Implement AI for single-player mode.
--Include a timer for moves.
--Save and load game states.
--Add multiplayer support with network programming.
+-**Add special moves like castling, en passant, and pawn promotion.**
+-**Implement AI for single-player mode.**
+-**Include a timer for moves.**
+-**Save and load game states.**
+-**Add multiplayer support with network programming.**
